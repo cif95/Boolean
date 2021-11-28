@@ -1,0 +1,87 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+
+.container{
+  background-color:rgba(0, 0, 0, 0.6);
+  width: 650px;
+  margin:auto;
+  border-radius: 15px;
+  padding: 100px;
+  text-align: center;
+}
+
+
+#logo{
+  width:300px;
+}
+
+
+header{
+  color:#00FF00;
+  font-weight: bold;
+}
+
+
+#shortcuts{
+  background-color:#00FF00;
+  padding: 10px;
+}
+
+
+.scooter{
+  text-align: left;
+  color: white;
+
+}
+
+.square{
+  color: white;
+}
+
+.square:after{
+  content:"\2752";
+  }
+
+
+h3:before{
+  content: '\21A6';
+
+  }
+
+
+.scooter .alexstatus{
+  background-color:RGB(255,127,80);
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+
+}
+
+
+.scooter .mikestatus{
+  background-color:#00FF00;
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+
+}
+
+
+.scooter .fedestatus{
+  background-color:rgb(255,0,0);
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+
+}
+
+div h3{
+  font-size: 15px;
+}
